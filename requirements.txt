@@ -1,0 +1,6 @@
+ipython
+attrs
+mypy
+pytest
+haversine
+requests
