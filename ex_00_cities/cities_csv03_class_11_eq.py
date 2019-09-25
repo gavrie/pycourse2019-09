@@ -12,6 +12,9 @@ class City:
         return f"City(name={self.name!r}, lat={self.lat}, lng={self.lng}, country={self.country!r})"
 
     def __eq__(self, other):
+        if not isinstance(other, City):
+            return False
+
         return (self.name == other.name and
                 self.lat == other.lat and
                 self.lng == other.lng and

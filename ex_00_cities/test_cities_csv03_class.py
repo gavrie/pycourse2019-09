@@ -22,3 +22,4 @@ def test_set():
 
     print(cities)
     assert cities == {c1}
+    assert cities == {c2}
